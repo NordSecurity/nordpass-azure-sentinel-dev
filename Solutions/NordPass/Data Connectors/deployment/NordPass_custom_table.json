@@ -39,7 +39,7 @@
       "properties": {
         "dataCollectionEndpointId": "[resourceId('Microsoft.Insights/dataCollectionEndpoints', 'NordPass')]",
         "streamDeclarations": {
-          "Custom-NordPassEventLogs_CL": {
+          "[variables('customTable')]": {
             "columns": [
               {
                 "name": "action",
