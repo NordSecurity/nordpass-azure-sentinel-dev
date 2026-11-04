@@ -33,7 +33,7 @@
     },
     {
       "type": "Microsoft.Insights/dataCollectionRules",
-      "apiVersion": "2021-09-01-preview",
+      "apiVersion": "2023-03-11",
       "name": "NordPass",
       "location": "[parameters('location')]",
       "properties": {
